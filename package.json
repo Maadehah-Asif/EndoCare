@@ -1,0 +1,15 @@
+{
+  "name": "endocare-platform",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:mobile": "npm --workspace @endocare/mobile start",
+    "dev:api": "npm --workspace @endocare/api run dev",
+    "typecheck": "npm run typecheck -ws --if-present"
+  }
+}
+

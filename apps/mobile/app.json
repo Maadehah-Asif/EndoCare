@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "EndoCare",
+    "slug": "endocare",
+    "scheme": "endocare",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
+
